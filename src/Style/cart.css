@@ -1,0 +1,26 @@
+.table tr td img{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+
+td i{
+    cursor: pointer;
+}
+
+td,
+th{
+    color: var(--primary-color);
+}
+
+.success-toast{
+    background-color: #007bff !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+  }
+  
+  .success-toast .Toastify__progress-bar {
+    background-color: #ffcc00 !important; /* Custom progress bar color */
+  }
